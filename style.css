@@ -127,7 +127,7 @@ ul{
 
 .right{
     gap: 20px;
-    width: 100%;
+    /* width: 100%; */
 }
 .single-post{
     border: 2px solid var(--secondary);
