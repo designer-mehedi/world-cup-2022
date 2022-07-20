@@ -127,7 +127,7 @@ ul{
 
 .right{
     gap: 20px;
-    /* width: 100%; */
+    width: 100%;
 }
 .single-post{
     border: 2px solid var(--secondary);
@@ -150,13 +150,13 @@ ul{
 }
 .matches .matchday {
     border: 1px solid var(--secondary);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column;   */
     background: #f7f7f7;
     border-radius: 5px;
     padding: 2rem 0;
-    align-items: center;
+    /* align-items: center; */
 }
 .matchday  span{
     margin: 8px 10px 0 10px;
@@ -179,9 +179,9 @@ ul{
     margin-right: 15px;
 }
 .single-group .country-list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
     /* border: 1px solid rgb(6, 27, 60); */
    
 }
@@ -195,7 +195,7 @@ ul{
 .single-group li{
     padding: 10px 0;
     display: flex;
-    width: 52%;
+    /* width: 52%; */
 }
 
 
