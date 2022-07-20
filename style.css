@@ -144,8 +144,8 @@ ul{
 }
 
 /* Style for Matches */
-.schedule-data .matches img{
-    width: 40px;
+.schedule-data .matches .matchday img{
+    width: 50px;
     height: 35px;
 }
 .matches .matchday {
