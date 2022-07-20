@@ -1,0 +1,50 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Reusable Styles */
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.text-center{
+    text-align: center;
+}
+.grid{
+    display: grid;
+}
+.grid-two-columns{
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-three-columns{
+    grid-template-columns: repeat(3, 1fr);
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+
+/* Main Styles */
+
