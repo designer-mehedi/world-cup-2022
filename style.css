@@ -10,6 +10,12 @@
 }
 
 /* Reusable Styles */
+:root{
+    --primary: #000;
+    --secondary: #eee;
+    --button: #dd0000;
+    --pure: #fff;
+}
 .container{
     width: 1240px;
     margin: 0 auto;
@@ -19,7 +25,7 @@ img{
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: var(--pure);
 }
 ul{
     list-style: none;
@@ -61,7 +67,7 @@ ul{
 } */
 .hero-data{
     background: rgb(34, 34, 34);
-    color: #fff;
+    color: var(--pure);
     border-radius: 20px;
 }
 .hero-data .content-width{
@@ -79,8 +85,8 @@ ul{
     margin-bottom: 2rem;
 }
 .hero-data-content .header-btn{
-    color: #fff;
-    background: #DD0000;
+    color: var(--pure);
+    background: var(--button);
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -97,7 +103,7 @@ ul{
     height: 50%;
     margin-right: 30px;
     border-radius: 10px;
-    background: #eee;
+    background: var(--secondary);
     padding: 40px 30px;
 }
 .menubar .navbar li{
@@ -109,35 +115,57 @@ ul{
 }
 .menubar .navbar a{
     display: inline-block;
-    background: #dd0000;
+    background: var(--button);
     padding: 10px 20px;
     width: 240px;
     border-radius: 10px;
     text-align: center;
 }
 .navbar .active{
-    background: #000!important;
+    background: var(--primary)!important;
 }
 
-.blog-posts{
-    width: 100%;
+.right{
     gap: 20px;
+    width: 100%;
 }
 .single-post{
-    border: 2px solid #eee;
+    border: 2px solid var(--secondary);
     padding: 10px 10px;
     border-radius: 10px;
 }
 .single-post a{
     display: inline-block;
-    color: #000;
+    color: var(--primary);
     padding: 5px 15px;
-    border: 1px solid gray;
+    border: 1px solid var(--secondary);
     margin: 20px 0;
     border-radius: 5px;
 }
 
 /* Style for Matches */
+.schedule-data .matches img{
+    width: 50px;
+    height: 35px;
+}
+.matchday {
+    border: 1px solid var(--secondary);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #f7f7f7;
+    border-radius: 5px;
+    padding: 2rem 0;
+    align-items: center;
+}
+.matchday  span{
+    margin: 8px 10px 0 10px;
+    font-size: .9rem;
+}
+.matchday .bottom{
+    margin-top: 10px;
+}
+
 
 
 /* Style for Groups */
@@ -150,7 +178,7 @@ ul{
     padding: 100px 0;
 }
 .footer h2{
-    color: #fff;
+    color: var(--pure);
     font-size: 2.5rem;
     font-weight: 600; 
 }
@@ -160,7 +188,6 @@ ul{
     margin: 4rem;
 }
 .footer .footer-links a{
-    color: #fff;
     margin: 0 25px;
     font-weight: 500;
 }
@@ -168,7 +195,6 @@ ul{
     margin-top: 3rem;
 }
 .social-links a{
-    color: #fff;
     font-size: 2.3rem;
     margin: 0 10px;
 }
