@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    .hero-data .content-width {
+            width: 80%;
+            margin: 0 auto;
+        }
+    .hero-data{
+        flex-direction: column;
+    }
+    .blog-data, .schedule-data, .group-data{
+        flex-direction: column;
+    }
+    .blog-posts, .matches, .all-groups{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .menubar{
+        width: 100%;
+        background: transparent;
+    }
+    .menubar .navbar a{
+        width: 100%;
+        padding: 20px 100px;
+    }
+    .navbar{
+        align-items: center;
+    }
+    .footer-links{
+        flex-direction: column;
+    }
+    .footer-links a{
+        margin: 10px 0!important;
+    }
+}

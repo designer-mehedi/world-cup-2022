@@ -24,6 +24,7 @@ img{
     width: 100%;
 }
 a{
+    display: inline-block;
     text-decoration: none;
     color: var(--pure);
 }
@@ -110,7 +111,6 @@ ul{
     margin: 10px 0;
 }
 .menubar .navbar{
-    display: flex;
     flex-direction: column;
 }
 .menubar .navbar a{
